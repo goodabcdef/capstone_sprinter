@@ -1,0 +1,16 @@
+# XML 파싱/직렬화
+lxml>=4.9.0
+
+# 도구 설정 (Tools.Valves)
+pydantic>=2.0
+
+# HWP / HWPX 라이브러리 (오픈소스 — 별도 설치)
+# python-hwpx
+# python-hwplib  # jpype1 의존
+# jpype1
+
+# LLM SDK
+# 본 코드는 Open WebUI 의 generate_chat_completion 경유로 호출.
+# 독립 실행 시 다음 중 하나 설치:
+# anthropic
+# openai
